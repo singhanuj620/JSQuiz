@@ -9,8 +9,9 @@ import { setCurrentPage } from "../../Reducers/pageReducer";
 const UserInfo = () => {
   const dispatch = useDispatch();
   const [name, setName] = useState();
-  const [questionBucket, setQuestionBucket] = useState();
+  const [questionBucket, setQuestionBucket] = useState(10);
   const handleUserInfo = () => {
+    console.log(questionBucket)
     dispatch(
       setUserDetail({
         name,

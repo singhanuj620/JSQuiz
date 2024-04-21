@@ -4,3 +4,8 @@
   font-style: normal;
   font-size: 1.3rem;
 }
+
+.question_container {
+  margin-top: 4%;
+  height: 60%;
+}
