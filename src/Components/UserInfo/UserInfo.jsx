@@ -51,7 +51,6 @@ const UserInfo = () => {
                 <option>10</option>
                 <option>20</option>
                 <option>50</option>
-                <option>100</option>
               </Input>
             </FormGroup>
             <Button color="primary" className="mt-12" onClick={handleUserInfo}>
