@@ -99,7 +99,7 @@ const Questions = () => {
           handleSelectedAnswer={setSelectedAnswerId}
         />
       </div>
-      <div className="submit_answer flex justify-end mt-12 mr-8">
+      <div className="submit_answer flex justify-end mt-2 mr-8">
         <div>
           <Button
             color="primary"
