@@ -44,7 +44,11 @@ const SingleQuestion = ({
   const { question, options } = questionData;
   return (
     <div className="flex flex-col">
-      <div className="question_title">{question}</div>
+      <div className="question_title">
+        {question.split("\n").map((line, index) => (
+          <p key={index}>{line}</p>
+        ))}
+      </div>
       <div className="option_container flex flex-wrap">
         {options.map((option, ind) => {
           return (
