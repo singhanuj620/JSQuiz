@@ -1,7 +1,27 @@
 import "./SingleQuestion.css";
 import { useState, useEffect } from "react";
 
-const SingleQuestion = ({ questionData, handleSelectedAnswer }) => {
+const SingleQuestion = ({
+  questionData = {
+    question: "Javascript follows _ programming paradigm.",
+    options: [
+      {
+        id: 1,
+        value: "Prototype",
+        correct: true,
+      },
+      {
+        id: 2,
+        value: "OOPS",
+      },
+      {
+        id: 3,
+        value: "Functional",
+      },
+    ],
+  },
+  handleSelectedAnswer,
+}) => {
   const [selectedAnswerId, setSelectedAnswerId] = useState();
   useEffect(() => {
     if (selectedAnswerId) {
