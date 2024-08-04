@@ -1,5 +1,7 @@
 # Javascript Quiz
 
+## LIVE DEMO 🚨🚨 - [Click Here](https://jsinterviewquiz.netlify.app/)
+
 This is a MCQ quiz made for revision of javascript.
 
 ![image](https://github.com/singhanuj620/JSQuiz/assets/30296527/4e6b0449-e16d-4733-a1e0-1132245f0523)
